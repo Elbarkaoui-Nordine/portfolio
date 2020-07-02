@@ -1,0 +1,43 @@
+#projects-section{
+    margin-left: 100px;
+    height: 100vh;
+    background-color: #000000;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.slider{
+    position: relative;
+    top:10%;
+    padding: 10px;
+    width: 100%;
+    background-color: #44474b;
+    height: auto;
+    margin: auto;
+}
+
+
+.slider img{
+    float: left;
+}
+
+.aws-btn {
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --organic-arrow-color: #26456f;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #2d5182;
+    --control-bullet-active-color: #26456f;
+    --loader-bar-color: #851515;
+    --loader-bar-height: 6px;
+
+}

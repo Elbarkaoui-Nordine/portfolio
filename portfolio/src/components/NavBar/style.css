@@ -3,18 +3,42 @@
     top: 0;
     width: 100px;
     height: 100%;
-    background-color: black;
+    background-color: #181818;
 }
 
 #logo{
     color: white;
     font-size: 50px;
-    width: 50%;
-    padding: 10px;
-    margin: auto;
-    text-align: center;
+    background-color: #070707;
 }
 
-#logo:hover{
-    background-color: red;
+#navButtons{
+    position: relative;
+    top:28%;
+}
+
+.icone{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+a > i {
+    color: #909096;
+}
+
+.socials{
+    position: relative;
+    color: #909096;
+    text-align: center;
+    top: 47%;
+}
+
+.social-icone {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.active {
+    color : rebeccapurple;
 }
