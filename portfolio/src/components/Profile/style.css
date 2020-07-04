@@ -1,5 +1,36 @@
 #profile-section{
     margin-left: 100px;
     height: 100vh;
-    background-color: rebeccapurple;
+    background-color: #1d1d1d;
+}
+
+
+.background{
+    height: 35vh;
+    background-color: rgb(56, 56, 54);
+    background-image: url('./img/profilebg.webp');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    border-bottom: 1px solid #181818;
+}
+
+#avatar{
+
+    width: 200px;
+    box-shadow: 2px 2px 2px black;
+   
+}
+
+.placement {
+    position: relative;
+    top:26%; 
+}
+
+.about{
+    height: 50vh;
+}
+
+.description{
+    background-color: blueviolet;
 }

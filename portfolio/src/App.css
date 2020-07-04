@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("./components/Dosis-VariableFont_wght.ttf")
+ }
+
 .App {
   text-align: center;
 }
