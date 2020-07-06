@@ -1,36 +1,90 @@
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.25;
+    margin-bottom: .2em;
+    color: #3a4145;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
 #profile-section{
     margin-left: 100px;
     height: 100vh;
-    background-color: #1d1d1d;
+    background-color: white
 }
-
 
 .background{
     height: 35vh;
-    background-color: rgb(56, 56, 54);
-    background-image: url('./img/profilebg.webp');
+    background-color: 	#f5f8fa;
+    /* background-image: url('./img/profilebg.webp');
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-    border-bottom: 1px solid #181818;
+    background-attachment: fixed; */
+    border-bottom: 1px solid #d8dbdd;
 }
+
 
 #avatar{
-
-    width: 200px;
-    box-shadow: 2px 2px 2px black;
-   
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: white;
+    border:1px solid rgb(0,0,0,.125);
+    padding:5px;  
+    filter: grayscale(100%);
 }
 
-.placement {
-    position: relative;
-    top:26%; 
+#avatar:hover{
+    border:1px solid rgb(68, 67, 67);
+}
+
+
+
+.page-title{
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.01rem;
+}
+
+.light-grey{
+    color: #aaa;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.title-text{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .about{
     height: 50vh;
 }
 
-.description{
-    background-color: blueviolet;
+.small-title{
+    font-size: 1.6em;
+    color: #3a4145;
 }
+
+@media screen and (max-width : 900px){
+    #profile-section{
+        margin-left: 0;
+        position: relative;
+        top:85px;
+        min-height: 100vh;
+    }
+
+    #info{
+       
+    }
+}
+
+
+@media screen and (max-width : 578px){
+    #profile-section{
+        height: auto;
+    }
+
+}
+

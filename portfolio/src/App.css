@@ -1,7 +1,19 @@
-@font-face {
-  font-family: "Open Sans";
-  src: url("./components/Dosis-VariableFont_wght.ttf")
- }
+
+@font-face{
+  font-family: "meri";
+  src: url("./Merriweather-Light.ttf") format("truetype");
+} 
+
+.meri{
+font-family: "meri";
+}
+
+body{
+  letter-spacing: .01rem;
+  color: #2e2e2e;
+  letter-spacing: .01rem;
+  line-height: 1.75rem;
+}
 
 .App {
   text-align: center;

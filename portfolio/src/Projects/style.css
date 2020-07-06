@@ -1,7 +1,8 @@
 #projects-section{
     margin-left: 100px;
     height: 100vh;
-    background-color: #000000;
+    background-color: #f5f8fa;
+    border-top: 1px solid #d8dbdd;
 }
 
 /* img{
@@ -9,9 +10,28 @@
  height: 150px;
 } */
 
-.slider{
-    height: 80vh;
+.project-bg{
+    background-color: 	#f5f8fa;
+    /* background-image: url('./img/profilebg.webp');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; */
+    border-bottom: 1px solid #d8dbdd;
+    border-top: 1px solid #d8dbdd;
 }
+
+
+body{
+    transition-duration: 500ms;
+}
+.slider{
+    height: 85vh;
+}
+
+.slick-slider{
+    align-items: center;
+}
+
 img{
     object-fit: contain;
 }
@@ -27,13 +47,7 @@ img{
 
 }
 
-* {
-    color: white;
-    font-family: "sans serif";
-}
-
-
-#prev:before, #next:before { font-family: "slick"; font-size: 70px; line-height: 1; ; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }   
+#prev:before, #next:before { font-family: "slick"; font-size: 70px; line-height: 1;color:rgb(44, 99, 170) ; opacity: 0.75; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }   
 
 #prev:before { content: "‹"; }
 [dir="rtl"] #prev:before { content: "›"; }
@@ -41,4 +55,54 @@ img{
 [dir="rtl"] #next { left: -10px; top: 70px; right: auto; }
 #next:before { content: "›"; }
 [dir="rtl"] #next:before { content: "‹"; }
+
+
+@media screen and (min-width : 997px){
+    .slider{
+        height: 70vh;
+        
+    }
+}
+
+@media screen and (max-width : 900px){
+    #projects-section{
+        margin-left: 0;
+        position: relative;
+        top:85px;
+        /* min-height: 100vh; */
+    }
+}
+
+@media screen and (max-width : 578px){
+    #projects-section{
+        top:197px;
+        height: auto;
+    }
+
+    .slider{
+        width: 80%;
+        height: auto;
+    }
+    .slick-slider{
+        padding: 0;
+    }
+
+    #logo{
+        width: 18%;
+    }
+
+}
+
+a > button {
+    width: 100%;
+}
+
+.lang-icone{
+    width: 25px;
+    padding-right: 4px;
+}
+
+.project-lang > li {
+    margin-bottom: 12px;
+}
 

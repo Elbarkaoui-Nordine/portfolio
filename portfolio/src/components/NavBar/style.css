@@ -8,7 +8,8 @@
 
 #logo{
     color: white;
-    font-size: 50px;
+    height: 60px;
+    font-size: 45px;
     background-color: #070707;
 }
 
@@ -41,4 +42,56 @@ a > i {
 
 .active {
     color : rebeccapurple;
+}
+
+@media screen and (max-width: 900px ){
+    #nav{
+        z-index: 1;
+        width: 100%;
+        height: 85px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #logo{
+        width: 13%;
+        height: 85px;
+    }
+    
+    #navButtons{
+        flex-direction: row !important;
+        justify-content: space-between !important  ;
+        width: 25%;
+        position: static !important;
+        align-self: center !important;
+        
+    }
+    .icone,.social-icone{
+        margin-bottom: 0;
+    }
+
+    .socials{
+        flex-direction: row !important;
+        justify-content: space-between !important  ;
+        width: 10%;
+        position: static !important;
+        align-self: center !important;
+        margin-right: 20px;
+    }
+
+}
+
+i{
+    color:#909096;
+}
+
+.icone-text{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding-top:4.7px;
+}
+
+.code-icone > i {
+    color: rgb(218, 218, 218);
 }
