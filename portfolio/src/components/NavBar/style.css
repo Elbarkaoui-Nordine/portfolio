@@ -4,6 +4,7 @@
     width: 100px;
     height: 100%;
     background-color: #181818;
+    z-index: 99;
 }
 
 #logo{

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
 import avatar from './img/nordine.png';
+import Fade from 'react-reveal/Fade';
 // import logo from '../img/logo.png';
 
 function Profile() {
@@ -8,6 +9,9 @@ function Profile() {
 
     return (
         <div id='profile-section'>
+            
+
+         
             <div className='background row '>
                 <div className='align-self-center justify-content-center col-12'>
                     <div className='row col-12 justify-content-center'>
@@ -17,7 +21,9 @@ function Profile() {
                     <h2 className='meri light-grey title-text mt-0 col-12 text-center'>Développeur web Full-Stack</h2>
                     <h2 className='meri light-grey title-text mt-0 col-12 text-center'>Etudiant au <a className='meri' href='https://campus.samsung.fr/'>Samsung campus</a></h2>
                 </div>
+            
             </div>
+            <Fade left cascade>
             <div className='row justify-content-center  '>    
                 <div className='col-xl-4 col-sm-7 col-xs-12'>
                     <h3 className='small-title'>A propos de moi</h3>
@@ -49,6 +55,7 @@ function Profile() {
                     </ul>                    
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }
