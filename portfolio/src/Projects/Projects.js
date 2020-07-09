@@ -62,10 +62,9 @@ function Projects() {
         <div id="projects-section" className='bg-white' >
             <div className='row justify-content-center'>
                 <div className='col-12 project-bg'>
-                    <div className='col-12 text-center text-white'><h3 className=' p-0'>Mes Projets</h3></div>
-                    <p className='pt-5 text-center meri' >Voici une liste de projet que j'ai pu faire au cours de mon annee en tant que developpeur web.</p>
+                    <div className='col-12 text-center text-white mt-5 mb-5'><h3 className=' p-0'>Mes Projets</h3></div>
                 </div>
-            
+                <p className='pt-5 text-center meri' >Voici une liste de projet que j'ai pu faire au cours de mon annee en tant que developpeur web.</p>
                 <Slider {...settings} className='slider d-flex align-content-center  col-md-10 col-sm-10 '>
                 <div>
                     <Fade right cascade>
@@ -75,7 +74,7 @@ function Projects() {
                         </div>
                         <div className='row justify-content-between'>
                             <img className=' col-md-12 col-lg-6 col-sm-12' onClick={() => window.location.href = "https://e-8commerce-client.herokuapp.com/"}  src={Commerce} />
-                            <div className=' col-md-12 col-lg-6 col-sm-12  '>
+                            <div className=' col-md-12 col-lg-6 col-sm-12 mb-3 '>
                                 <div>
                                     <h5>Description</h5>
                                     <p className='meri'  >Creation d'un site e-commerce front et back office en groupe de 8 de 1 mois en methode agile.</p>
@@ -88,10 +87,11 @@ function Projects() {
                                             <li><img className='lang-icone' src={htmlpng} />HTML5</li>
                                             <li><img className='lang-icone' src={csspng} />CSS3</li>
                                             <li><img className='lang-icone pt-2' src={phppng} />PHP</li>
-                                            <li><img className='lang-icone' src={javascriptpng} />Javascript</li>
+                
                                   
                                         </ul>
                                         <ul className='project-lang mt-2 col-5 '>
+                                        <li><img className='lang-icone' src={javascriptpng} />Javascript</li>
                                             <li><img className='lang-icone' src={reactpng} />React</li>
                                             <li><img className='lang-icone' src={symfonypng} />Symfony</li>
                                         </ul>
@@ -117,7 +117,7 @@ function Projects() {
                         </div>
                         <div className='row justify-content-between'>
                             <img className=' col-md-12 col-lg-6 col-sm-12'  onClick={() => window.location.href = "http://mvc-free-ads.herokuapp.com/"} src={FreeAds} />
-                            <div className=' col-md-12 col-lg-6 col-sm-12  '>
+                            <div className=' col-md-12 col-lg-6 col-sm-12 mb-3  '>
                                 <div>
                                     <h5>Description</h5>
                                     <p className='meri'  >Reconstituer un site statique a partir d'une image.<br/> Le site est realiser en  HTML5 et CSS3 avec du JQuery pour le carousel</p>
@@ -130,9 +130,9 @@ function Projects() {
                                             <li><img className='lang-icone' src={htmlpng} />HTML5</li>
                                             <li><img className='lang-icone' src={csspng} />CSS3</li>
                                             <li><img className='lang-icone pt-2' src={phppng} />PHP</li>
-                                            <li><img className='lang-icone' src={javascriptpng} />Javascript</li>
                                         </ul>
                                         <ul className='project-lang mt-2 col-5 '>
+                                            <li><img className='lang-icone' src={javascriptpng} />Javascript</li>
                                             <li><img className='lang-icone' src={laravelpng} />Laravel</li>
                                             <li><img className='lang-icone' src={bladepng} />Blade</li>
                                         </ul>
@@ -156,7 +156,7 @@ function Projects() {
                         </div>
                         <div className='row justify-content-between'>
                             <img className=' col-md-12 col-lg-6 col-sm-12'  onClick={() => window.location.href = "https://maquette-responsive-nordine.herokuapp.com/"} src={Maquette} />
-                            <div className=' col-md-12 col-lg-6 col-sm-12  '>
+                            <div className=' col-md-12 col-lg-6 col-sm-12 mb-3 '>
                                 <div>
                                     <h5>Description</h5>
                                     <p className='meri'  >Reconstituer un site statique a partir d'une image.<br/> Le site est realiser en  HTML5 et CSS3 avec du JQuery pour le carousel</p>
@@ -164,12 +164,18 @@ function Projects() {
 
                                 <div className='mt-5'>
                                     <h5>Language utilisee</h5>
-                                    <ul className='project-lang mt-2'>
+                                    <div className='row justify-content-center'>
+                                    <ul className='project-lang mt-2 col-5'>
+                                        
                                         <li><img className='lang-icone' src={htmlpng} />HTML5</li>
                                         <li><img className='lang-icone' src={csspng} />CSS3</li>
                                         <li><img className='lang-icone' src={javascriptpng} />Javascript</li>
+                                    </ul>
+                                    <ul className='project-lang mt-2 col-5'>
+                                        
                                         <li><img className='lang-icone' src={jquerypng} />JQuery</li>
                                     </ul>
+                                    </div>
                                 </div>
 
                                 <div className='row justify-content-center mt-5'>

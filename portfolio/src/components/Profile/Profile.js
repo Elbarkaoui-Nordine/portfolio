@@ -55,6 +55,7 @@ function Profile() {
                     </ul>                    
                 </div>
             </div>
+            <a href="https://drive.google.com/uc?export=download&id=1SKp3WiEov3WacsEKzsjn-32kMt40eW5u" className='cv-btn'>CV</a>
             </Fade>
         </div>
     )

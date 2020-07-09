@@ -47,7 +47,7 @@ function NavBar() {
             </Link>
             <Link
                 activeClass="active"
-                to="profile-section"
+                to="parcours-section"
                 spy={true}
                 smooth={true}
                 offset={offest}

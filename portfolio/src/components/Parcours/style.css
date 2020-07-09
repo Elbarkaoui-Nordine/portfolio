@@ -1,0 +1,50 @@
+#parcours-section{
+    margin-left: 100px;
+    height: 100vh;
+    background-color: #f5f8fa;
+    border-top: 1px solid #d8dbdd;
+}
+
+.color-blue{
+    color : #0474ac;
+}
+
+.decoration-blue{
+    text-decoration-color: #039be5;
+}
+.border-bottom{
+    border-bottom : #039be5;
+}
+
+.bg-black{
+    
+}
+
+@media screen and (max-width : 900px){
+    #parcours-section{
+        margin-left: 0;
+        position: relative;
+        top:85px;
+        /* min-height: 100vh; */
+    }
+}
+
+@media screen and (max-width : 578px){
+    #parcours-section{
+        top:197px;
+        height: auto;
+    }
+
+    .slider{
+        width: 80%;
+        height: auto;
+    }
+    .slick-slider{
+        padding: 0;
+    }
+
+    #logo{
+        width: 18%;
+    }
+
+}

@@ -5,6 +5,7 @@ import Homepage from './components/Homepage/Homepage';
 import NavBar from './components/NavBar/NavBar';
 import Profile from './components/Profile/Profile';
 import Projects from './Projects/Projects';
+import Parcours from './components/Parcours/Parcours';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
   <NavBar />
   <Profile />
   <Projects />
+  <Parcours />
 </div>
   );
 }
