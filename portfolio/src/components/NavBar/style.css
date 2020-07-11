@@ -22,7 +22,7 @@
 .icone{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 a > i {
@@ -45,6 +45,23 @@ a > i {
     color : rebeccapurple;
 }
 
+@media screen and (max-width: 480px ){
+    #navButtons{
+        flex-direction: row !important;
+        justify-content: space-between !important  ;
+        width: 60% !important;
+    }
+    .socials{
+        display: none !important;
+    }
+    #nav{
+        justify-content: start !important;
+    }
+
+    #navButtons{
+        margin-left: 30px;
+    }
+}
 @media screen and (max-width: 900px ){
     #nav{
         z-index: 1;
@@ -62,13 +79,14 @@ a > i {
     #navButtons{
         flex-direction: row !important;
         justify-content: space-between !important  ;
-        width: 25%;
+        width: 44%;
         position: static !important;
         align-self: center !important;
         
     }
     .icone,.social-icone{
         margin-bottom: 0;
+        max-width: 26px;
     }
 
     .socials{
@@ -89,10 +107,11 @@ i{
 .icone-text{
     font-size: 15px;
     color: white;
+    padding: 4.7px 0 0 0 ;
     margin: 0;
-    padding-top:4.7px;
 }
 
 .code-icone > i {
     color: rgb(218, 218, 218);
 }
+

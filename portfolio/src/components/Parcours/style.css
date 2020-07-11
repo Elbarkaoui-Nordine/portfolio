@@ -1,8 +1,9 @@
 #parcours-section{
     margin-left: 100px;
-    height: 100vh;
+    height: auto;
     background-color: #f5f8fa;
     border-top: 1px solid #d8dbdd;
+    margin-bottom: 50px;
 }
 
 .color-blue{
@@ -25,7 +26,20 @@
         margin-left: 0;
         position: relative;
         top:85px;
-        /* min-height: 100vh; */
+        height: 166vh;
+    }
+}
+
+@media screen and (max-width : 768px){
+    #parcours-section{
+        margin-left: 0;
+        position: relative;
+        top:85px;
+
+    }
+    .exp > li{
+        margin-top: 15px !important;
+        width: 100% !important;
     }
 }
 
@@ -33,6 +47,7 @@
     #parcours-section{
         top:197px;
         height: auto;
+        margin-bottom: 200px;
     }
 
     .slider{

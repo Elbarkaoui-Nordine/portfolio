@@ -11,9 +11,9 @@ function Parcours() {
 
             <div className='row justify-content-center'>
                 <div className='col-12 project-bg'>
-                    <div className='col-12 text-center text-white mt-5 mb-5'><h3 className=' p-0'>Mon Parcours</h3></div>
+                    <div className='col-12 text-center text-white mt-5 mb-5'><h3 className=' p-0'>Parcours</h3></div>
                 </div>
-                <div className='row col-10 d-flex align-items-center'>
+                <div className='row col-md-10 col-sm-12 d-flex align-items-center'>
                     <div className='col-12 text-center bg-black'>
                         <h3 ><u className='decoration-blue'>Formation</u></h3>
                         <ul>
@@ -36,7 +36,7 @@ function Parcours() {
                     <div className='col-12 text-center'>
                         <h3><u className='decoration-blue'>Experience professionnelle</u></h3>
                         <ul>
-                            <div className='row justify-content-center'>
+                            <div className='row justify-content-center exp'>
                                 <li className='text-left ml-4 mt-5 col-md-5 col-xs-6'>
                                     <h5>BURGER KING </h5>
                                     <p className='color-blue'>EQUIPIER POLYVALENT | 2019</p>
@@ -47,7 +47,7 @@ function Parcours() {
                                 <li className='text-left ml-4 mt-5 col-md-5 col-xs-6'>
                                     <h5>LIDL</h5>
                                     <p className='color-blue'>EMPLOYER POLYVALENT | 2019 </p>
-                                    <div>
+                                    <div className='meri'>
                                     - Réassortiment des rayons, aménagement et gestion de leurs produits.<br/>
                                     - Étiquetage et balisage des rayons ainsi que le contrôle de l’évolution
                                     des stocks.<br/>
@@ -55,21 +55,21 @@ function Parcours() {
                                     - Aide en boulangerie</div>
                                 </li>
                             </div>
-                            <div className='row justify-content-center'>
+                            <div className='row justify-content-center exp'>
                                 <li className='text-left ml-4 mt-5 col-md-5 col-xs-6'>
                                     <h5>POLE EMPLOI</h5>
                                     <p className='color-blue'>AGENT D'ACCEUIL | 2018-2019</p>
-                                    <div>
+                                    <div className='meri'>
                                     - Accompagnement des demandeurs d’emploi dans l’utilisation des outils
                                     digitaux et informatiques.<br/>
                                     - Aide à l’accès et l’utilisation de l’espace personnel des utilisateurs.<br/>
                                     - Information sur les fonctionnalités du site de pole-emploi.fr.</div>
                                 </li>
 
-                                <li className='text-left ml-4 mt-5 col-md-5 col-xs-6'>
+                                <li className='text-left ml-4 mt-5 col-md-5 col-xs-6 exp'>
                                     <h5>OSCARO</h5>
                                     <p className='color-blue'>PRÉPARATEUR DE COMMANDES | 2017</p>
-                                    <div>
+                                    <div className='meri'>
                                     - Lire et constituer une commande client.<br/>
                                     - Scanner des produits et les transporter.<br/>
                                     - Suivre et respecter des consignes de sécurité ainsi qu’une cadence de
