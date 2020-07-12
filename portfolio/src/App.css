@@ -4,15 +4,17 @@
   src: url("./Merriweather-Light.ttf") format("truetype");
 } 
 
-.meri{
-font-family: "meri";
+.meri,.roboto{
+  font-family: 'Roboto', sans-serif;
 }
+
 
 body{
   letter-spacing: .01rem;
   color: #2e2e2e;
   letter-spacing: .01rem;
   line-height: 1.75rem;
+  font-family: "Montserrat",'sans-serif';
 }
 
 .App {

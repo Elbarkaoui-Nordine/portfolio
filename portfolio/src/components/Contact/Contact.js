@@ -41,9 +41,10 @@ function Contact() {
                 <div className='col-12 project-bg'>
                     <div className='col-12 text-center text-white mt-5 mb-5'><h3 className=' p-0'>Contacts</h3></div>
                 </div>
+  <Fade  >
                 <div className='row justify-content-center mt-5 mb-5'>
                     <p className='col-12 text-center'>
-                    Si mon profil vous interesse et voulez qu'on travaille ensemble sur d'ambitieux projets ou tout simplement une demande ou question ,<br/> n'hesitez pas a me contacter en utilsant le formulaire si dessous.
+                    Si mon profil vous interesse et voulez faire equipe sur d'ambitieux projets ou tout simplement une demande ou question,<br/> n'hésites pas à me contacter en utilisant le formulaire ci-dessous.
                     </p>
     
                     <Form className='col-lg-5 col-md-7 col-sm-12 col-xs-12 row justify-content-center' onSubmit={sendEmail}>
@@ -70,8 +71,9 @@ function Contact() {
                             </Button>
                         </div>
                     </Form>
-                    <div className='border-primary col-lg-4 col-md-4 col-sx-12 col-sm-12' >
-                            <ul>
+                    <div className='border-primary col-lg-2 col-md-4 col-sx-12 col-sm-12' >
+                        
+                            <ul className="contact-info" >
                                 <li>El Barkaoui Nordine</li>
                                 <li>29 rue Carle hebert , Courbevoie</li>
                                 <li>06 50 26 48 64</li>
@@ -83,7 +85,7 @@ function Contact() {
                             </ul>
                     </div>
                 </div>
-                
+        </Fade>
             </div>
         </div>
     

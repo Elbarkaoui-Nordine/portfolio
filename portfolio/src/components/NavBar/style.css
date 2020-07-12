@@ -7,6 +7,13 @@
     z-index: 99;
 }
 
+.icone:hover{
+    cursor: pointer;
+}
+
+.icone-text{
+    max-height: 30px;
+}
 #logo{
     color: white;
     height: 60px;

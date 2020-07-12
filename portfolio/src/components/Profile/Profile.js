@@ -27,11 +27,11 @@ function Profile() {
             <div className='row justify-content-center  '>    
                 <div className='col-xl-4 col-sm-7 col-xs-12'>
                     <h3 className='small-title'>A propos de moi</h3>
-                    <p className='meri'> Portant un interet important au monde informatique depuis tout jeune et aimant resoudre des problemes,
-                        je suis actuelllement etudiant en developpement web au <a className='meri' href='https://campus.samsung.fr/'><em>Samsung campus</em></a> depuis Decembre 2019
-                        ou j'ai pu constituer et travailler sur d'ambitieux projets tous aussi different les un que les autres que ce sois seul ou en equipe.
-                        <br/>J'apprecie le sport , les series , les jeux video et la culture japonaise.
-                        <br/><br/><u>Ayant pour but de faire ce que j'aime mon metier</u>, je vous souhaite la bienvenue dans mon portfolio.
+                    <p className='meri'> Portant un intérêt important au monde informatique depuis tout jeune et aimant résoudre des problèmes,
+                     je suis actuellement étudiant en développement web au <a className='meri' href='https://campus.samsung.fr/'><em>Samsung campus</em></a> depuis décembre 2019 
+                     ou j'ai pu constituer et travailler sûr d'ambitieux projets tous aussi different les un que les autres que ce sois seul ou en équipe.
+                        <br/>J'apprécie le sport, les series, les jeux vidéo et la culture japonaise.
+                        <br/><br/><u>Ayant pour but de faire ce que j'aime mon métier</u>, je vous souhaite la bienvenue dans mon portfolio.
                     </p>
                 </div>
                 <div className=' col-md-4 col-sm-5 col-xs-12 col-xl-3' id='info'>
@@ -42,14 +42,14 @@ function Profile() {
                         <li>Age : 22 ans</li>
                         <li>Status : Recherche une alternance</li>
                         <li>
-                            Competences:
+                            <h3  className='small-title' style={{fontWeight:"1000"}} >Competences:</h3>
                             <ul className='pl-3'>
-                                -Front-End :
-                                <li className='mb-1'>HTML5, CSS3, Javascript, JQuery, ReactJS</li>
-                                -Back-End:
-                                <li  className='mb-1'>PHP, Symfony, Laravel, NodeJS, ExpressJS, SocketIO, SQL, MongoDB</li>
-                                -Autres :
-                                <li >Git, GitHub, GitLab, Methode Agile</li>
+                                Front-End :
+                                <li className='mb-1'  ><i style={{color:"black"}}>HTML5, CSS3, Javascript, JQuery, ReactJS</i></li>
+                                Back-End:
+                                <li  className='mb-1'><i style={{color:"black"}}>PHP, Symfony, Laravel, NodeJS, ExpressJS, SocketIO, SQL, MongoDB</i></li>
+                                Autres :
+                                <li ><i style={{color:"black"}}>Git, GitHub, GitLab, Methode Agile</i></li>
                             </ul>
                         </li>
                     </ul>                    
@@ -60,5 +60,6 @@ function Profile() {
         </div>
     )
 }
+// snap et irc
 
 export default Profile;

@@ -18,8 +18,15 @@
     }
 }
 
+@media screen and (max-width : 768px){
+    .contact-info{
+        font-size: 17px;
+        /* min-height: 100vh; */
+    }
+}
 
-.Toastify__progress-bar {
+
+/* .Toastify__progress-bar {
     color: green;
     background-color: green;
 }
@@ -43,7 +50,7 @@
 .Toastify__progress-bar--dark {
     color: green;
     background-color: green;
-}
+} */
 
 /* 
 .Toastify__toast-body {
